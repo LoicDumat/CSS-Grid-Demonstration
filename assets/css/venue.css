@@ -1,0 +1,5 @@
+.venue{
+    font-family: var(--font-accent);
+    font-size: 1.5em;
+    text-transform: lowercase;
+}

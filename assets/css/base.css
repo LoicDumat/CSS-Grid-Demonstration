@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-white);
+    background: radial-gradient(circle, var(--gradient-dark) 0%, var(--gradient-light) 100%);
+
+    font-family: var(--font-base);
+    color: var(--color-base);
+    text-transform: uppercase;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+main{
+    border-top: thick double var(--color-base);
+    border-bottom: thick double var(--color-base);
+}
+
+a{
+    color: var(--color-base);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color-accent);
+}
+
+/*
+    I've reduced the code by only defining the border types once in these classes
+*/
+
+.border__horizontal{
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+}
+
+.border__vertical{
+    border-left: var(--border-thin);
+    border-right: var(--border-thin);
+}
